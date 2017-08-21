@@ -1,0 +1,49 @@
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI Unit Tests.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI Unit Tests.pdb
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.pdb
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.csprojResolveAssemblyReference.cache
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI Unit Tests.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI Unit Tests.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.csprojResolveAssemblyReference.cache
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI Unit Tests.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI Unit Tests.pdb
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Newtonsoft.Json.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.pdb
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\TopShelfAPI.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\bin\Debug\Newtonsoft.Json.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.csprojResolveAssemblyReference.cache
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI Unit Tests\obj\Debug\TopShelfAPI Unit Tests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,9 @@
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Release\TopShelfAPI.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Release\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Release\Newtonsoft.Json.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Release\Newtonsoft.Json.xml
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Release\TopShelfAPI.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Release\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Release\TopShelfAPI.csprojResolveAssemblyReference.cache
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Release\TopShelfAPI.csproj.CoreCompileInputs.cache
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Release\TopShelfAPI.xml

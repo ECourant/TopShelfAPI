@@ -1,0 +1,21 @@
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.pdb
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\TopShelfAPI.pdb
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\Newtonsoft.Json.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Debug\Newtonsoft.Json.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.pdb
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.csprojResolveAssemblyReference.cache
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.csprojResolveAssemblyReference.cache
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Debug\TopShelfAPI.csproj.CoreCompileInputs.cache

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3939CCB-A9B9-4A14-B519-516CCA5C92CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TopShelfAPI</RootNamespace>
+    <AssemblyName>TopShelfAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <DefineConstants Condition="'$(LangVersion)' == '7'">LANG_VERSION_7</DefineConstants>
+    <DefineConstants Condition="'$(LangVersion)' == '7.1'">LANG_VERSION_7_1</DefineConstants>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <DocumentationFile>bin\Debug\TopShelfAPI.xml</DocumentationFile>
+    <LangVersion>default</LangVersion>
+    <DefineConstants Condition="'$(LangVersion)' == '7'">LANG_VERSION_7</DefineConstants>
+    <DefineConstants Condition="'$(LangVersion)' == '7.1'">LANG_VERSION_7_1</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants Condition="'$(LangVersion)' == '7'">LANG_VERSION_7</DefineConstants>
+    <DefineConstants Condition="'$(LangVersion)' == '7.1'">LANG_VERSION_7_1</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Release\TopShelfAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Testing|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Testing\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TESTING</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants Condition="'$(LangVersion)' == '7'">LANG_VERSION_7</DefineConstants>
+    <DefineConstants Condition="'$(LangVersion)' == '7.1'">LANG_VERSION_7_1</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" Condition="'$(LangVersion)'=='7' Or '$(LangVersion)'=='7.1'">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\TBin.cs" />
+    <Compile Include="Base\TClient.cs" />
+    <Compile Include="Base\TEnumerable.cs" />
+    <Compile Include="Base\TEnumerableItem.cs" />
+    <Compile Include="Base\TLocation.cs" />
+    <Compile Include="Base\TPart.cs" />
+    <Compile Include="Base\TPipeline.cs" />
+    <Compile Include="Basics\IFilter.cs" />
+    <Compile Include="Basics\IRequest.cs" />
+    <Compile Include="Basics\IResponse.cs" />
+    <Compile Include="Basics\ITopShelfObject.cs" />
+    <Compile Include="Bin.cs" />
+    <Compile Include="BinInventory.cs" />
+    <Compile Include="Carton.cs" />
+    <Compile Include="CartonLine.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ClientInventory.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="DocumentDetail.cs" />
+    <Compile Include="Enums\DocumentType.cs" />
+    <Compile Include="Enums\InventoryAdjustmentType.cs" />
+    <Compile Include="Enums\RequestType.cs" />
+    <Compile Include="Enums\DetailLevel.cs" />
+    <Compile Include="Enums\StatusName.cs" />
+    <Compile Include="Enums\TopShelfLicense.cs" />
+    <Compile Include="Enums\TransactionPrefix.cs" />
+    <Compile Include="Filtering\TSFilter.cs" />
+    <Compile Include="Helpers\EnumHandler.cs" />
+    <Compile Include="Helpers\Extensions.cs" />
+    <Compile Include="InventoryUpdate.cs" />
+    <Compile Include="JsonTemplates\JsonRequest.cs" />
+    <Compile Include="JsonTemplates\JsonResponse.cs" />
+    <Compile Include="KitContent.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LocationBins.cs" />
+    <Compile Include="LocationInventory.cs" />
+    <Compile Include="Network\RequestHandler.cs" />
+    <Compile Include="Network\ThrottleHandler.cs" />
+    <Compile Include="Network\TSAdvancedRequest.cs" />
+    <Compile Include="Network\TSRequest.cs" />
+    <Compile Include="Network\TSRequestDelegate.cs" />
+    <Compile Include="Network\TSResponse.cs" />
+    <Compile Include="Part.cs" />
+    <Compile Include="PartInventory.cs" />
+    <Compile Include="Pipelines\BinsPipeline.cs" />
+    <Compile Include="Pipelines\CartonsPipeline.cs" />
+    <Compile Include="Pipelines\ClientsLocationsPipeline.cs" />
+    <Compile Include="Pipelines\DocumentsPipeline.cs" />
+    <Compile Include="Pipelines\InventoryPipeline.cs" />
+    <Compile Include="Pipelines\PartsPipeline.cs" />
+    <Compile Include="Pipelines\TestPipeline.cs" />
+    <Compile Include="Pipelines\VendorsPipeline.cs" />
+    <Compile Include="PutAwayBin.cs" />
+    <Compile Include="Network\TopShelfException.cs" />
+    <Compile Include="TSConfiguration.cs" />
+    <Compile Include="TSConnection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TSCredential.cs" />
+    <Compile Include="TSDefaults.cs" />
+    <Compile Include="TSRequestLimit.cs" />
+    <Compile Include="UnitOfMeasure.cs" />
+    <Compile Include="Vendor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

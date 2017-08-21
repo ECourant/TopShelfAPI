@@ -1,0 +1,18 @@
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\bin\Testing\TopShelfAPI.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\bin\Testing\TopShelfAPI.pdb
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.csprojResolveAssemblyReference.cache
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.dll
+c:\users\ecourant\documents\visual studio 2017\Projects\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\TopShelfAPI.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\TopShelfAPI.pdb
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\Newtonsoft.Json.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\Newtonsoft.Json.xml
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.dll
+C:\Users\ecourant\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.pdb
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\TopShelfAPI.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\TopShelfAPI.pdb
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\Newtonsoft.Json.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\bin\Testing\Newtonsoft.Json.xml
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.csprojResolveAssemblyReference.cache
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.dll
+E:\OneDrive\Work Files\TopShelfAPI\TopShelfAPI\obj\Testing\TopShelfAPI.pdb

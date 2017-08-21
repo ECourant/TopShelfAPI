@@ -1,0 +1,2411 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TopShelfAPI</name>
+    </assembly>
+    <members>
+        <member name="T:TopShelfAPI.Base.TBin">
+            <summary>
+            The base class for TopShelf's Bin object, all bin objects are based off of this class.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TBin.WarehouseLocationID">
+            <summary>
+            Gets or sets the bin's warehouse location ID.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TBin.WHName">
+            <summary>
+            Gets or sets the bin's warehouse name or bin name.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TBin.CommonLocation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TBin.WavePickOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TBin.ParentWarehouseLocationID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TBin.InventoryIsDeviceHidden">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Base.TClient">
+            <summary>
+            The base class for TopShelf's Client object, all client objects are based off of this class.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TClient.ClientID">
+            <summary>
+            Gets or sets the client's ID.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TClient.ClientName">
+            <summary>
+            Gets or sets the client's name.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TClient.DateCreated">
+            <summary>
+            Gets the <see cref="T:System.DateTime"/> that the client was created.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TClient.DateUpdated">
+            <summary>
+            Gets the <see cref="T:System.DateTime"/> that the client was last updated.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TClient.ClientQTY">
+            <summary>
+            Gets the client QTY.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Base.TEnumerable`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TEnumerable`1.Count">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TEnumerable`1.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TopShelfAPI.Base.TEnumerable`1.Item(System.String)">
+            <summary>
+            Returns an object based on its Name identifier. NOTE: Not all objects have a unique name identifier and a <see cref="T:System.NotImplementedException"/> may be thrown.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.op_Implicit(`0[])~TopShelfAPI.Base.TEnumerable{`0}">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.GetEnumerator">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.Get(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.Contains(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.Contains(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Base.TEnumerable`1.Add(`0)">
+            <summary>
+            Adds an item to the collection.
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="T:TopShelfAPI.Base.TEnumerableItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Base.TLocation">
+            <summary>
+            The base class for TopShelf's Location object, all location objects are based off of this class.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TLocation.LocationID">
+            <summary>
+            Gets or sets the location's ID.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TLocation.LocationName">
+            <summary>
+            Gets or sets the location's name.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TLocation.DateCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TLocation.DateUpdated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TLocation.Active">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TLocation.IsDepot">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TLocation.LocationQTY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Base.TPart">
+            <summary>
+            The base class for TopShelf's Part object, all part objects are based off of this class.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TPart.PartID">
+            <summary>
+            Gets or sets the ID of the part.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TPart.PartName">
+            <summary>
+            Gets or sets the name/SKU of the part.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TPart.RequiresSerialNumber">
+            <summary>
+            Gets or sets whether or not the part will require a unique serial number when added to inventory.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TPart.RequiresLot">
+            <summary>
+            Gets or sets whether or not the part will by part of a Lot when added to inventory.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Base.TPipeline">
+            <summary>
+            This is used as a template for the basic functions for communicating with TopShelf and translating the API's response into an object.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Base.TPipeline.DefaultTarget">
+            <summary>
+            Gets the default endpoint for making API calls. "http://api.scoutsft.com/{DefaultTarget}"
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Basics.IFilter">
+            <summary>
+            The interface used to create filter objects.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Basics.IFilter.Name">
+            <summary>
+            Gets or sets the name of the filter you are using.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Basics.IFilter.Value">
+            <summary>
+            Gets or sets the value of the field you are filtering.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Basics.IFilter.GetURLEncoded">
+            <summary>
+            Gets the string that will be added to the url query.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Basics.ITopShelfObject">
+            <summary>
+            This interface is ony used for mapping TopShelf data classes from the JSON received from the API.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Bin">
+            <summary>
+            Represents a bin object in TopShelf.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Bin.LocationID">
+            <summary>
+            Gets or sets the LocationID of the bin.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Bin.LocationName">
+            <summary>
+            Gets or sets the LocationName of the bin.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Bin.BinTypeID">
+            <summary>
+            Gets or sets the type ID of the bin.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Bin.BinTypeName">
+            <summary>
+            Gets or sets the type name of the bin.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Bin.ParentBinName">
+            <summary>
+            Gets or sets the name of the parent bin.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.BinInventory">
+            <summary>
+            Represents the inventory object of a TopShelf bin.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.BinInventory.BinQTY">
+            <summary>
+            Gets or sets the QTY of an item inside this bin.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Carton">
+            <summary>
+            Represents a carton object in TopShelf.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Carton.#ctor">
+            <summary>
+            Initializes a new instance of the carton object.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Carton.CartonID">
+            <summary>
+            Gets or sets the carton ID.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Carton.DocumentID">
+            <summary>
+            Gets or sets the document ID that this carton is associated with.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Carton.DocumentNumber">
+            <summary>
+            Gets or sets the document number that this carton is associated with.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Carton.TrackingNumber">
+            <summary>
+            Gets or sets the tracking number for this carton.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Carton.Notes">
+            <summary>
+            Gets or sets the notes for this carton.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Carton.DateCreated">
+            <summary>
+            Gets the date that this carton was last updated.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Carton.CartonLines">
+            <summary>
+            Gets the <see cref="T:TopShelfAPI.CartonLine"/>s inside this carton.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.CartonLine">
+            <summary>
+            Represents a carton line object in TopShelf.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.CartonLineID">
+            <summary>
+            Gets or sets the line ID.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.PartID">
+            <summary>
+            Gets or sets the part ID of this line.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.PartName">
+            <summary>
+            Gets or sets the part name of this line.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.QTY">
+            <summary>
+            Gets or sets the QTY of this line.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.SerialNumber">
+            <summary>
+            Gets or sets the serial number of the part in this line.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.LotID">
+            <summary>
+            Gets or sets the lot ID of the part in this line.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.LotNumber">
+            <summary>
+            Gets or sets the lot number of the part in this line.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.CartonLine.DateCreated">
+            <summary>
+            Gets the date that this carton line was created.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Client">
+            <summary>
+            Represents a client object in TopShelf.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Client.#ctor">
+            <summary>
+            Initializes a new instance of the client object.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Client.AccountNumber">
+            <summary>
+            Gets or sets client's account number.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Client.Email">
+            <summary>
+            Gets or sets the Email address for the client.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Client.LogoURL">
+            <summary>
+            Gets or sets the URL to an image for the client's logo.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Client.Locations">
+            <summary>
+            Gets or sets the locations that are apart of this client.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.ClientInventory">
+            <summary>
+            Represents an inventory object for clients.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.ClientInventory.#ctor">
+            <summary>
+            Initializes a new client inventory object.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.ClientInventory.Locations">
+            <summary>
+            Gets or sets the of inventory locations that are apart of this client.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Document">
+            <summary>
+            Represents a receiving or shipping document.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Document.#ctor">
+            <summary>
+            Initializes a new instance of the Document object with the default <see cref="P:TopShelfAPI.Document.DocumentType"/> set to <see cref="F:TopShelfAPI.DocumentType.PurchaseOrder"/>.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Document.#ctor(TopShelfAPI.DocumentType)">
+            <summary>
+            Initializes a new instance of the Document object with the specified <see cref="P:TopShelfAPI.Document.DocumentType"/>.
+            </summary>
+            <param name="documentType">The <see cref="T:TopShelfAPI.DocumentType"/> that this document will be.</param>
+        </member>
+        <member name="P:TopShelfAPI.Document.DocumentID">
+            <summary>
+            Gets or sets the document's unique numeric identifier.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.DocumentNumber">
+            <summary>
+            Gets or sets the document number.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ToLocation">
+            <summary>
+            Gets or sets the ToLocation, this will define <see cref="P:TopShelfAPI.Document.ToLocationID"/> and <see cref="P:TopShelfAPI.Document.ToLocationName"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ToLocationID">
+            <summary>
+            Gets or sets the ToLocationID which is defined in <see cref="P:TopShelfAPI.Document.ToLocation"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ToLocationName">
+            <summary>
+            Gets or sets the ToLocationName which is defined in <see cref="P:TopShelfAPI.Document.ToLocation"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ToClient">
+            <summary>
+            Gets or sets the ToClient, this will define <see cref="P:TopShelfAPI.Document.ToClientID"/> and <see cref="P:TopShelfAPI.Document.ToClientName"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ToClientID">
+            <summary>
+            Gets or sets the ToClientID which is defined in <see cref="P:TopShelfAPI.Document.ToClient"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ToClientName">
+            <summary>
+            Gets or sets the ToClientName which is defined in <see cref="P:TopShelfAPI.Document.ToClient"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.DocumentTypeID">
+            <summary>
+            Gets or sets the <see cref="T:TopShelfAPI.DocumentType"/> based on it's numeric representation.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.DocumentType">
+            <summary>
+            Gets or sets the document type.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.TransactionPrefix">
+            <summary>
+            Gets or sets the transaction prefix.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.CustomerPO">
+            <summary>
+            Gets or sets the customer's purchase order number.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.FromLocation">
+            <summary>
+            Gets or sets the FromLocation, this will define <see cref="P:TopShelfAPI.Document.FromLocationID"/> and <see cref="P:TopShelfAPI.Document.FromLocationName"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.FromLocationID">
+            <summary>
+            Gets or sets the FromLocationID which is defined in <see cref="P:TopShelfAPI.Document.FromLocation"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.FromLocationName">
+            <summary>
+            Gets or sets the FromLocationName which is defined in <see cref="P:TopShelfAPI.Document.FromLocation"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.FromClient">
+            <summary>
+            Gets or sets the FromClient, this will define <see cref="P:TopShelfAPI.Document.FromClientID"/>, <see cref="P:TopShelfAPI.Document.FromAccountNumber"/> and <see cref="P:TopShelfAPI.Document.FromClientName"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.FromClientID">
+            <summary>
+            Gets or sets the FromClientID which is defined in <see cref="P:TopShelfAPI.Document.FromClient"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.FromClientName">
+            <summary>
+            Gets or sets the FromClientName which is defined in <see cref="P:TopShelfAPI.Document.FromClient"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.FromAccountNumber">
+            <summary>
+            Gets or sets the FromAccountNumber which is defined in <see cref="P:TopShelfAPI.Document.FromClient"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.Vendor">
+            <summary>
+            Gets or sets the Vendor, this will define <see cref="P:TopShelfAPI.Document.VendorID"/> and <see cref="P:TopShelfAPI.Document.VendorName"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.VendorID">
+            <summary>
+            Gets or sets the VendorID which is defined in <see cref="P:TopShelfAPI.Document.Vendor"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.VendorName">
+            <summary>
+            Gets or sets the VendorName which is defined in <see cref="P:TopShelfAPI.Document.Vendor"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.HoldForPick">
+            <summary>
+            Gets or sets whether or not the document is currently being held. If true the document cannot be opened on devices.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.HoldForPickDate">
+            <summary>
+            Gets or sets the date which the hold will expire.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.IntegrationDoc">
+            <summary>
+            Gets or sets the integration doc used for storing custom data from integrations.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.IntegrationSource">
+            <summary>
+            Gets or sets the integration source used for storing custom data from integrations.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.DateCreated">
+            <summary>
+            Gets the date the document was created.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.DateUpdated">
+            <summary>
+            Gets the date the document was last updated.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.SubTotal">
+            <summary>
+            Gets the subtotal value of the document.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.Total">
+            <summary>
+            Gets the total value of the document.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ShippingPaid">
+            <summary>
+            Gets the shipping paid for this document.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.Tax">
+            <summary>
+            Gets or sets the tax for this document.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ShippingTypeID">
+            <summary>
+            Gets or sets the shipping type id.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.ShippingTypeName">
+            <summary>
+            Gets or sets the shipping type name.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.StatusName">
+            <summary>
+            Gets the <see cref="T:TopShelfAPI.StatusName"/> of the document.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.Notes">
+            <summary>
+            Gets or sets the documents notes.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Document.DocumentDetails">
+            <summary>
+            Gets or sets the list of parts that are to be received or picked for this document.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.DocumentDetail">
+            <summary>
+            Represents a single line on a receiving or shipping document.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.DocumentDetailID">
+            <summary>
+            Gets or sets the ID of the document detail.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.QTY">
+            <summary>
+            Gets or sets the QTY expected to be picked or received for this document.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.DateUpdated">
+            <summary>
+            Gets the date that this document detail was last updated.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.IntegrationID">
+            <summary>
+            Gets or sets the integration ID of the source system.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.Code">
+            <summary>
+            Gets or sets the document detail code.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.UnitPrice">
+            <summary>
+            Gets or sets the document detail's unit price.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.QTYReceived">
+            <summary>
+            Gets the QTY received so far.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.QTYShipped">
+            <summary>
+            Gets the QTY shipped so far.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.QTYPreReceived">
+            <summary>
+            Gets the QTY that has been pre received.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.QTYPreShipped">
+            <summary>
+            Gets the QTY that has been pre shipped.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.DocumentDetail.PreQTY">
+            <summary>
+            Gets the pre-QTY.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.DocumentType">
+            <summary>
+            The type of <see cref="T:TopShelfAPI.Document"/> that can exist depending on whether inventory is added from the document or to the document.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.DocumentType.PurchaseOrder">
+            <summary>
+            The type of document that items will be added or picked to from inventory.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.DocumentType.SalesOrder">
+            <summary>
+            The type of document that items will be added to inventroy from.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.InventoryAdjustmentType">
+            <summary>
+            Represents the typeof of adjustments that can be made to inventory QTYs.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.InventoryAdjustmentType.Set">
+            <summary>
+            Will set the QTY.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.InventoryAdjustmentType.Add">
+            <summary>
+            Will add to the current QTY.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.InventoryAdjustmentType.Remove">
+            <summary>
+            Will remove from the current QTY.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Enums.RequestType">
+            <summary>
+            Request types to be used with <see cref="T:TopShelfAPI.Network.RequestHandler"/>
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.Enums.RequestType.GET">
+            <summary>
+            Http GET Request
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.Enums.RequestType.POST">
+            <summary>
+            Http POST Request
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.Enums.RequestType.PUT">
+            <summary>
+            Http PUT Request
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.Enums.RequestType.DELETE">
+            <summary>
+            Http DELETE Request, NOTE: I have not yet programmed sending a delete request with a body.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.DetailLevel">
+            <summary>
+            The detail level for TopShelf's inventory data.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.DetailLevel.None">
+            <summary>
+            Lists part and total QTY.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.DetailLevel.Low">
+            <summary>
+            List inventory per client.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.DetailLevel.Medium">
+            <summary>
+            List inventory per location.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.DetailLevel.High">
+            <summary>
+            List inventory per bin.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.DetailLevel.Max">
+            <summary>
+            List individual serial numbers for assets, and qtys per lot number for lots. No difference for items.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.StatusName">
+            <summary>
+            Represents the state of <see cref="T:TopShelfAPI.Document"/>s in TopShelf.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.ShippedComplete">
+            <summary>
+            The document is <see cref="F:TopShelfAPI.StatusName.PickedComplete"/> and has tracking info.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.ShippedIncomplete">
+            <summary>
+            The document is <see cref="F:TopShelfAPI.StatusName.PickedIncomplete"/> and has tracking info.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.PickedComplete">
+            <summary>
+            The document has all of it's items picked completely.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.PickedIncomplete">
+            <summary>
+            The document has items that are not completely picked.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.ReceivedComplete">
+            <summary>
+            The document has all of it's items completely received.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.ReceivedIncomplete">
+            <summary>
+            The document has items that are not completely received.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.Open">
+            <summary>
+            The document has not been opened by a user.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.StatusName.Canceled">
+            <summary>
+            The document has been canceled and will not be picked.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.TopShelfLicense">
+            <summary>
+            Represents different licenses in TopShelf. Each license type will change the default values in <see cref="T:TopShelfAPI.TSRequestLimit"/>.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TopShelfLicense.Advanced">
+            <summary>
+            TopShelf's Advanced Account License.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TopShelfLicense.Enterprise">
+            <summary>
+            TopShelf's Enterprise Account License.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TopShelfLicense.Unleashed">
+            <summary>
+            TopShelf's Unleashed Account License.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TopShelfLicense.Other">
+            <summary>
+            This will represent custom values in <see cref="T:TopShelfAPI.TSRequestLimit"/>.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.TransactionPrefix">
+            <summary>
+            Another form of representing types of <see cref="T:TopShelfAPI.Document"/>s.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TransactionPrefix.PurchaseOrder">
+            <summary>
+            Purchase Order
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TransactionPrefix.SalesOrder">
+            <summary>
+            Sales Order
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Filtering.TSFilter">
+            <summary>
+            Used to filter GET requests.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Filtering.TSFilter.#ctor(System.String)">
+            <summary>
+            Creates a new filter parameter with a blank value.
+            </summary>
+            <param name="Name">The filter or field you are using.</param>
+        </member>
+        <member name="M:TopShelfAPI.Filtering.TSFilter.#ctor(System.String,System.String)">
+            <summary>
+            Creates a new filter with a value.
+            </summary>
+            <param name="Name">The filter or field you are using.</param>
+            <param name="Value">The value you are filtering by.</param>
+        </member>
+        <member name="P:TopShelfAPI.Filtering.TSFilter.Name">
+            <summary>
+            Gets or Sets the name of the field or filter you are using, this cannot be null or white space.
+            </summary>
+            <exception cref="T:System.ArgumentException">Is thrown when the value is null or white space.</exception>
+        </member>
+        <member name="P:TopShelfAPI.Filtering.TSFilter.Value">
+            <summary>
+            Gets or Sets the value you are filtering by.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Filtering.TSFilter.GetURLEncoded">
+            <summary>
+            Returns the URL encoded string for the filter.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.InventoryUpdate">
+            <summary>
+            Represents an inventory update object to be sent to TopShelf.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.InventoryUpdate.#ctor">
+            <summary>
+            Initializes a new instance of the inventory update object with the <see cref="P:TopShelfAPI.InventoryUpdate.AdjustmentType"/> set to <see cref="F:TopShelfAPI.InventoryAdjustmentType.Add"/>.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.InventoryUpdate.#ctor(TopShelfAPI.Base.TBin,TopShelfAPI.Base.TPart,TopShelfAPI.InventoryAdjustmentType,System.Double)">
+            <summary>
+            Initializes a new instance of the inventory update object with the provided <see cref="T:TopShelfAPI.Base.TBin"/> and <see cref="T:TopShelfAPI.Base.TPart"/>.
+            </summary>
+            <param name="bin">The bin that will be updated.</param>
+            <param name="part">The part that will be updated within that bin.</param>
+            <param name="adjustmentType">The type of inventory update you are sending.</param>
+            <param name="qty">The QTY update that will be sent.</param>
+        </member>
+        <member name="M:TopShelfAPI.InventoryUpdate.#ctor(System.Int32,System.Int32,TopShelfAPI.InventoryAdjustmentType,System.Double)">
+            <summary>
+            Initializes a new instance of the inventory update object with the provided <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/> and <see cref="P:TopShelfAPI.Base.TPart.PartID"/>.
+            </summary>
+            <param name="warehouseLocationID">The warehouse location ID of the bin that will be updated.</param>
+            <param name="partID">The part ID of the part that will be updated within that bin.</param>
+            <param name="adjustmentType">The type of inventory update you are sending.</param>
+            <param name="qty">The QTY update that will be sent.</param>
+        </member>
+        <member name="M:TopShelfAPI.InventoryUpdate.#ctor(System.String,System.String,TopShelfAPI.InventoryAdjustmentType,System.Double)">
+            <summary>
+            Initializes a new instance of the inventory update object with the provided <see cref="P:TopShelfAPI.Base.TBin.WHName"/> and <see cref="P:TopShelfAPI.Base.TPart.PartName"/>.
+            </summary>
+            <param name="whName">The warehouse name of the bin that will be updated.</param>
+            <param name="partName">The part name/SKU of the part that will be updated within that bin.</param>
+            <param name="adjustmentType">The type of inventory update that you are sending.</param>
+            <param name="qty">The QTY update that will be sent.</param>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.Bin">
+            <summary>
+            Gets or sets the <see cref="T:TopShelfAPI.Base.TBin"/> that you are updating inventory within, this will define <see cref="P:TopShelfAPI.InventoryUpdate.WarehouseLocationID"/> and <see cref="P:TopShelfAPI.InventoryUpdate.WHName"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.WarehouseLocationID">
+            <summary>
+            Gets or sets the warehouse location ID that will be updated within the <see cref="P:TopShelfAPI.InventoryUpdate.Bin"/> field.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.WHName">
+            <summary>
+            Gets or sets the warehouse name that will be updated within the <see cref="P:TopShelfAPI.InventoryUpdate.Bin"/> field.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.Part">
+            <summary>
+            Gets or sets the <see cref="T:TopShelfAPI.Base.TPart"/> that you are updating inventory within the specified bin, this will define <see cref="P:TopShelfAPI.InventoryUpdate.PartID"/> and <see cref="P:TopShelfAPI.InventoryUpdate.PartName"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.PartID">
+            <summary>
+            Gets or sets the part ID that will be updated within the <see cref="P:TopShelfAPI.InventoryUpdate.Part"/> field.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.PartName">
+            <summary>
+            Gets or sets the part name that will be updated within the <see cref="P:TopShelfAPI.InventoryUpdate.Part"/> field.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.AdjustmentType">
+            <summary>
+            Gets or sets the type of inventory adjustment you are sending.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.QTY">
+            <summary>
+            Gets or sets the QTY that you are sending in this inventory update.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.LotNumber">
+            <summary>
+            Gets or sets the lot number of the part you are sending.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.SerialNumber">
+            <summary>
+            Gets or sets the serial number of the part you are sending.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.Custom1">
+            <summary>
+            Gets or sets the first custom field of the part you are sending, this is only for serialized parts and lots.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.Custom2">
+            <summary>
+            Gets or sets the second custom field of the part you are sending, this is only for serialized parts and lots.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.Custom3">
+            <summary>
+            Gets or sets the third custom field of the part you are sending, this is only for serialized parts and lots.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.InventoryUpdate.Custom4">
+            <summary>
+            Gets or sets the fourth custom field of the part you are sending, this is only for serialized parts and lots.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.KitContent">
+            <summary>
+            Represents an item that will be created when a parent kit is broken in TopShelf.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.KitContent.ChildPartID">
+            <summary>
+            Gets or sets the part ID of the part that will be created.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.KitContent.ChildPartName">
+            <summary>
+            Gets or sets the part name/SKU of the part that will be created.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.KitContent.IsDynamic">
+            <summary>
+            Gets or sets whether or not the QTY of the part created is dynamic.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.KitContent.UsualQTY">
+            <summary>
+            Gets or sets the usual QTY of the part created.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.KitContent.MinDynamicQTY">
+            <summary>
+            Gets or sets the minimum QTY to create when breaking the parent.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.KitContent.MaxDynamicQTY">
+            <summary>
+            Gets or sets the maximum QTY to create when breaking the parent.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Location">
+            <summary>
+            Represents a location object in TopShelf.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.Address1">
+            <summary>
+            Gets or sets the first address field.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.Address2">
+            <summary>
+            Gets or sets the second address field.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.City">
+            <summary>
+            Gets or sets the city.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.State">
+            <summary>
+            Gets or sets the state or province.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.Zip">
+            <summary>
+            Gets or sets the zip code.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.CountryCode">
+            <summary>
+            Gets or sets the country code.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.ContactName">
+            <summary>
+            Gets or sets the name of the location's contact.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.ContactPhone">
+            <summary>
+            Gets or sets the phone number of the location's contact.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.ReferenceNum">
+            <summary>
+            Gets or sets the reference number.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Location.LogoURL">
+            <summary>
+            Gets or sets the url of the location's logo.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.LocationBins">
+            <summary>
+            Represents a collection of bins within a given location.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.LocationBins.Bins">
+            <summary>
+            Gets a collection of bins in this location.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.LocationInventory">
+            <summary>
+            Represents an inventory object for locations.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.LocationInventory.#ctor">
+            <summary>
+            Initializes a new location inventory object.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.LocationInventory.SerialNumbers">
+            <summary>
+            Gets or sets the list of serial numbers that are within this location.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.LocationInventory.Bins">
+            <summary>
+            Gets or sets the list of bins that are within this location.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Part">
+            <summary>
+            Represents a part object in TopShelf.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.Part.#ctor">
+            <summary>
+            Initializes a new instance of the part object.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.PartDescription">
+            <summary>
+            Gets or sets the default description for the part.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.VendorID">
+            <summary>
+            Gets or sets the part's vendor ID.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.VendorName">
+            <summary>
+            Gets or sets the name of the part's vendor.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.ClientDescription">
+            <summary>
+            Gets or sets the client description for the part.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom1">
+            <summary>
+            Gets or sets custom field 1.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom2">
+            <summary>
+            Gets or sets the products UPC or barcode.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom3">
+            <summary>
+            Gets or sets custom field 3.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom4">
+            <summary>
+            Gets or sets custom field 4.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom5">
+            <summary>
+            Gets or sets custom field 5.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom6">
+            <summary>
+            Gets or sets custom field 6.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom7">
+            <summary>
+            Gets or sets custom field 7.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom8">
+            <summary>
+            Gets or sets custom field 8.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Custom9">
+            <summary>
+            Gets or sets custom field 9.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom1IsEnabled">
+            <summary>
+            Gets or sets whether or not LotCustom1 is enabled.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom1IsRequired">
+            <summary>
+            Gets or sets whether or not LotCustom1 is required.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom1IsFormat">
+            <summary>
+            Gets or sets the regex string used to format LotCustom1.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom1IsDescription">
+            <summary>
+            Gets or sets the description of LotCustom1.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom2IsEnabled">
+            <summary>
+            Gets or sets whether or not LotCustom2 is enabled.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom2IsRequired">
+            <summary>
+            Gets or sets whether or not LotCustom2 is required.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom2IsFormat">
+            <summary>
+            Gets or sets the regex string used to format LotCustom2.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom2IsDescription">
+            <summary>
+            Gets or sets the description of LotCustom2.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom3IsEnabled">
+            <summary>
+            Gets or sets whether or not LotCustom3 is enabled.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom3IsRequired">
+            <summary>
+            Gets or sets whether or not LotCustom3 is required.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom3IsFormat">
+            <summary>
+            Gets or sets the regex string used to format LotCustom3.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom3IsDescription">
+            <summary>
+            Gets or sets the description of LotCustom3.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom4IsEnabled">
+            <summary>
+            Gets or sets whether or not LotCustom4 is enabled.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom4IsRequired">
+            <summary>
+            Gets or sets whether or not LotCustom4 is required.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom4IsFormat">
+            <summary>
+            Gets or sets the regex string used to format LotCustom4.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.LotCustom4IsDescription">
+            <summary>
+            Gets or sets the description of LotCustom4.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.IsPerishable">
+            <summary>
+            Gets or sets whether or not the part is perishable.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.IsLIFO">
+            <summary>
+            Gets or sets whether or not the part is last in first out.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.IsFIFO">
+            <summary>
+            Gets or sets whether or not the part is first in first out.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.ImageURL">
+            <summary>
+            Gets or sets the url of the product's image.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Cost">
+            <summary>
+            Gets or sets the cost to purchase the part from the vendor.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.Rate">
+            <summary>
+            Gets or sets the rate of the part.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.ShippingWeight">
+            <summary>
+            Gets or sets the shipping weight.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.DateCreated">
+            <summary>
+            Gets the date the part was created.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.DateUpdated">
+            <summary>
+            Gets the date the part was last updated.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.PutAwayBins">
+            <summary>
+            Gets the list of put away bins for the part.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.KitContents">
+            <summary>
+            Gets a list of parts that are in this part as a kit.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Part.UnitsOfMeasure">
+            <summary>
+            Gets a list of units of measure.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.PartInventory">
+            <summary>
+            Represents the inventory object for parts.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PartInventory.TotalQTY">
+            <summary>
+            Gets the total QTY of this part that exists in inventory.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PartInventory.NewQTY">
+            <summary>
+            Gets whether or not the part's QTY has changed since the last time reset_flag was called.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PartInventory.Clients">
+            <summary>
+            Gets or sets the list of client's that this part is in.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.PartInventory.GetInventoryUpdate(TopShelfAPI.InventoryAdjustmentType)">
+            <summary>
+            Creates an array of <see cref="T:TopShelfAPI.InventoryUpdate"/> objects based on the current QTYs in this collection.
+            </summary>
+            <param name="inventoryAdjustmentType">The <see cref="T:TopShelfAPI.InventoryAdjustmentType"/> you are going to send this update as.</param>
+            <returns>An array of <see cref="T:TopShelfAPI.InventoryUpdate"/> objects with the specified <see cref="T:TopShelfAPI.InventoryAdjustmentType"/> and the QTYs defined.</returns>
+        </member>
+        <member name="T:TopShelfAPI.Pipelines.BinsPipeline">
+            <summary>
+            Represents a pipeline of functions for getting, creating, updating and deleting <see cref="T:TopShelfAPI.Bin"/>s.
+            </summary>
+            <example>
+            <para>Getting a list of bins.</para>
+            <code>
+            TopShelfAPI.TSConnection TS = new TopShelfAPI.TSConnection(
+                new TopShelfAPI.TSCredential(APIKey, APIPassword),
+                new TopShelfAPI.TSConfiguration()
+                {
+                    RequestTimeout = TimeSpan.FromMinutes(10),
+                });
+            TopShelfAPI.LocationBins[] Bins = TS.Bins.GetBins();
+            </code>
+            <para></para>
+            <para>Getting a single bin.</para>
+            <code>
+            TopShelfAPI.TSConnection TS = new TopShelfAPI.TSConnection(
+                new TopShelfAPI.TSCredential(APIKey, APIPassword),
+                new TopShelfAPI.TSConfiguration()
+                {
+                    RequestTimeout = TimeSpan.FromMinutes(10),
+                });
+            TopShelfAPI.Bin SingleBin = TS.Bins.GetBin("TestBin");
+            //Or
+            TopShelfAPI.Bin SingleBin2 = TS.Bins["TestBin"];
+            
+            //Using WarehouseLocationID
+            TopShelfAPI.Bin SingleBin3 = TS.Bins.GetBin(124);
+            //Or
+            TopShelfAPI.Bin SingleBin4 = TS.Bins[124];
+            </code>
+            </example> 
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.BinsPipeline.Item(System.Int32)">
+            <summary>
+            Gets the bin with the specified <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/>.
+            </summary>
+            <param name="warehouseLocationID">The <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/> of the bin you are retrieving.</param>
+            <returns>A single <see cref="T:TopShelfAPI.Bin"/> object with the <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/> you specified.</returns>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.BinsPipeline.Item(System.String)">
+            <summary>
+            Gets the bin with the specified <see cref="P:TopShelfAPI.Base.TBin.WHName"/>.
+            </summary>
+            <param name="whName">The <see cref="P:TopShelfAPI.Base.TBin.WHName"/> of the bin you are retrieving.</param>
+            <returns>A single <see cref="T:TopShelfAPI.Bin"/> object with the <see cref="P:TopShelfAPI.Base.TBin.WHName"/> you specified.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.GetBins">
+            <summary>
+            Gets all the bins in your account.
+            </summary>
+            <returns>An array of <see cref="T:TopShelfAPI.Bin"/>s.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.GetBins(TopShelfAPI.Basics.IFilter[])">
+            <summary>
+            Gets all the bins that fit the filters provided.
+            </summary>
+            <param name="filters">An array of <see cref="T:TopShelfAPI.Basics.IFilter"/>s to search for bins.</param>
+            <returns>An array of <see cref="T:TopShelfAPI.Bin"/>s based on the filters provided.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.GetBins(System.Int32,System.Int32)">
+            <summary>
+            Gets the bins on the specified page.
+            </summary>
+            <param name="pageNum">The page number.</param>
+            <param name="pageSize">The maximum number of bins to return.</param>
+            <returns>An array of <see cref="T:TopShelfAPI.Bin"/>s on the specified page.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.GetBin(System.Int32)">
+            <summary>
+            Gets the bin with the specified <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/>.
+            </summary>
+            <param name="warehouseLocationID">The <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/> of the bin you are retrieving.</param>
+            <returns>A single <see cref="T:TopShelfAPI.Bin"/> object with the <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/> you specified.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.GetBin(System.String)">
+            <summary>
+            Gets the bin with the specified <see cref="P:TopShelfAPI.Base.TBin.WHName"/>.
+            </summary>
+            <param name="whName">The <see cref="P:TopShelfAPI.Base.TBin.WHName"/> of the bin you are retrieving.</param>
+            <returns>A single <see cref="T:TopShelfAPI.Bin"/> object with the <see cref="P:TopShelfAPI.Base.TBin.WHName"/> you specified.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.CreateBins(TopShelfAPI.Bin[])">
+            <summary>
+            Creates the bins provided in TopShelf.
+            </summary>
+            <param name="bins">The bins you would like to create.</param>
+            <returns>An array of <see cref="T:TopShelfAPI.Bin"/>s that were created.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.UpdateBins(TopShelfAPI.Bin[])">
+            <summary>
+            Updates existing bins in TopShelf.
+            </summary>
+            <param name="bins">The existing bins that you are updating.</param>
+            <returns>An array of <see cref="T:TopShelfAPI.Bin"/>s that were updated.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.DeleteBins(TopShelfAPI.Bin[])">
+            <summary>
+            Deletes existing bins in TopShelf.
+            </summary>
+            <param name="bins">The bins you would like to delete.</param>
+            <returns>True if the delete was successful.</returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.BinsPipeline.DeleteBins(System.Int32[])">
+            <summary>
+            Deletes existing bins in TopShelf.
+            </summary>
+            <param name="warehouseLocationIDs">An array of <see cref="P:TopShelfAPI.Base.TBin.WarehouseLocationID"/>s that you would like to delete.</param>
+            <returns>True if the delete was successful.</returns>
+        </member>
+        <member name="T:TopShelfAPI.Pipelines.CartonsPipeline">
+            <summary>
+            Represents a pipeline of functions for getting, creating, updating and deleting <see cref="T:TopShelfAPI.Carton"/>s.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.CartonsPipeline.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="cartonID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.CartonsPipeline.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="documentNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.GetCartons">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.GetCartons(TopShelfAPI.Basics.IFilter[])">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.GetCartons(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pageNum"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.GetCartons(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="documentID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.GetCartons(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="documentNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.GetCarton(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="cartonID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.CreateCartons(TopShelfAPI.Carton[])">
+            <summary>
+            
+            </summary>
+            <param name="cartons"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.UpdateCartons(TopShelfAPI.Carton[])">
+            <summary>
+            
+            </summary>
+            <param name="cartons"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.DeleteCartons(TopShelfAPI.Carton[])">
+            <summary>
+            
+            </summary>
+            <param name="cartons"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.CartonsPipeline.DeleteCartons(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="cartonIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TopShelfAPI.Pipelines.ClientsLocationsPipeline">
+            <summary>
+            Represents a pipeline of functions for getting, creating, updating and deleting <see cref="T:TopShelfAPI.Client"/>s and <see cref="T:TopShelfAPI.Location"/>s.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.ClientsLocationsPipeline.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="clientID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.ClientsLocationsPipeline.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="clientName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.GetClients">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.GetClients(TopShelfAPI.Basics.IFilter[])">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.GetClients(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pageNum"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.GetClient(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="clientID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.GetClient(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="clientName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.CreateClients(TopShelfAPI.Client[])">
+            <summary>
+            
+            </summary>
+            <param name="clients"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.UpdateClients(TopShelfAPI.Client[])">
+            <summary>
+            
+            </summary>
+            <param name="clients"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.DeleteClients(TopShelfAPI.Client[])">
+            <summary>
+            
+            </summary>
+            <param name="clients"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.DeleteClients(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="clientIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.DeleteLocations(TopShelfAPI.Location[])">
+            <summary>
+            
+            </summary>
+            <param name="locations"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.ClientsLocationsPipeline.DeleteLocations(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="locationIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TopShelfAPI.Pipelines.DocumentsPipeline">
+            <summary>
+            Represents a pipeline of functions for getting, creating, updating and deleting <see cref="T:TopShelfAPI.Document"/>s.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.DocumentsPipeline.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="documentID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.DocumentsPipeline.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="documentNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.GetDocuments">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.GetDocuments(TopShelfAPI.Basics.IFilter[])">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.GetDocuments(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pageNum"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.GetDocument(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="documentID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.GetDocument(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="documentNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.CreateDocuments(TopShelfAPI.Document[])">
+            <summary>
+            
+            </summary>
+            <param name="documents"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.UpdateDocuments(TopShelfAPI.Document[])">
+            <summary>
+            
+            </summary>
+            <param name="documents"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.DeleteDocuments(TopShelfAPI.Document[])">
+            <summary>
+            
+            </summary>
+            <param name="documents"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.DeleteDocuments(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="documentIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.DeleteDocumentDetails(System.Int32,System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="documentID"></param>
+            <param name="documentDetailIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.DocumentsPipeline.DeleteDocumentDetails(System.Tuple{System.Int32,System.Int32[]}[])">
+            <summary>
+            
+            </summary>
+            <param name="documents"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TopShelfAPI.Pipelines.InventoryPipeline">
+            <summary>
+            Represents a pipeline of functions for getting, creating, updating and deleting <see cref="T:TopShelfAPI.PartInventory"/>.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.InventoryPipeline.DetailLevel">
+            <summary>
+            Gets or sets the <see cref="T:TopShelfAPI.DetailLevel"/> to be used when requesting inventory data.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.InventoryPipeline.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="partID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.InventoryPipeline.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="partName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetInventory">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetInventory(TopShelfAPI.Basics.IFilter[])">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetInventory(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pageNum"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetPartInventory(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="partID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetPartInventory(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="partName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetClientInventory(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="clientID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetClientInventory(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="clientName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetLocationInventory(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="locationID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetLocationInventory(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="locationName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetBinInventory(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="warehouseLocationID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetBinInventory(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.GetNewInventory(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="reset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.UpdateInventory(TopShelfAPI.InventoryUpdate[])">
+            <summary>
+            
+            </summary>
+            <param name="inventoryUpdates"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.InventoryPipeline.UpdateInventory(TopShelfAPI.PartInventory[])">
+            <summary>
+            
+            </summary>
+            <param name="partInventory"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TopShelfAPI.Pipelines.PartsPipeline">
+            <summary>
+            Represents a pipeline of functions for getting, creating, updating and deleting <see cref="T:TopShelfAPI.Part"/>s.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.PartsPipeline.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="partID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.PartsPipeline.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="partName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.GetParts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.GetParts(TopShelfAPI.Basics.IFilter[])">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.GetParts(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pageNum"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.GetPart(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="partID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.GetPart(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="partName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.CreateParts(TopShelfAPI.Part[])">
+            <summary>
+            
+            </summary>
+            <param name="parts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.UpdateParts(TopShelfAPI.Part[])">
+            <summary>
+            
+            </summary>
+            <param name="parts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.DeleteParts(TopShelfAPI.Part[])">
+            <summary>
+            
+            </summary>
+            <param name="parts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.PartsPipeline.DeleteParts(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="partIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TopShelfAPI.Pipelines.VendorsPipeline">
+            <summary>
+            Represents a pipeline of functions for getting, creating, updating and deleting <see cref="T:TopShelfAPI.Vendor"/>s.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.VendorsPipeline.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="vendorID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TopShelfAPI.Pipelines.VendorsPipeline.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="vendorName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.GetVendors">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.GetVendors(TopShelfAPI.Basics.IFilter[])">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.GetVendors(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pageNum"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.GetVendor(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="vendorID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.GetVendor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="vendorName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.CreateVendors(TopShelfAPI.Vendor[])">
+            <summary>
+            
+            </summary>
+            <param name="vendors"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.UpdateVendors(TopShelfAPI.Vendor[])">
+            <summary>
+            
+            </summary>
+            <param name="vendors"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.DeleteVendors(TopShelfAPI.Vendor[])">
+            <summary>
+            
+            </summary>
+            <param name="vendors"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TopShelfAPI.Pipelines.VendorsPipeline.DeleteVendors(System.Int32[])">
+            <summary>
+            
+            </summary>
+            <param name="vendorIDs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TopShelfAPI.PutAwayBin">
+            <summary>
+            Represents a <see cref="T:TopShelfAPI.Part"/>s put away bin in the warehouse.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PutAwayBin.PlannedQTY">
+            <summary>
+            Gets the planned QTY.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PutAwayBin.CommonLocation">
+            <summary>
+            Gets whether or not the put away bin is a common location.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PutAwayBin.WavePickOrder">
+            <summary>
+            Gets the order for wave picking.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PutAwayBin.ParentWarehouseLocationID">
+            <summary>
+            Gets the parent warehouse location id of the parent bin.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PutAwayBin.InventoryIsDeviceHidden">
+            <summary>
+            Gets whethor or not the inventory in this bin is device hidden.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.PutAwayBin.BinQTY">
+            <summary>
+            Gets the total QTY inside this bin.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.TSConfiguration">
+            <summary>
+            Represents a configuration object used to define settings for communicating with TopShelf's REST API.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConfiguration.EndpointURL">
+            <summary>
+            Get or sets TopShelf's REST API URL, the default value is "https://api.scoutsft.com/"
+            </summary>
+            <exception cref="T:System.ArgumentException">Is thrown if the url provided is null or blank.</exception>
+        </member>
+        <member name="P:TopShelfAPI.TSConfiguration.RequestTimeout">
+            <summary>
+            Gets or sets the amount of time that will pass without a response after making a request.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">Is thrown if the <see cref="T:System.TimeSpan"/> provided is less than or equal to 0 milliseconds.</exception>
+        </member>
+        <member name="P:TopShelfAPI.TSConfiguration.TimeoutRequestsIfLimitIsReached">
+            <summary>
+            <para>Gets or sets how timeouts and reaching API limits is handled, if this is set to true then when an API limit is reached and the request cannot be made before the limit would reset, then a <see cref="T:System.TimeoutException"/> would be thrown. If it is set to false then the request will wait until the API limit allows for the request to be made.</para>
+            <para>However, at the moment because there are multiple timeouts in place, the request timeout itself that is controled when you call the method will still throw an exception if it takes too long to retrieve the data.</para>
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConfiguration.ThrottleDataSaveFrequency">
+            <summary>
+            <para>Gets or sets the amount of time between each save of the throttle data json file. This file stores the number of requests made and when so that request limits will not be exceded even if the program is stopped and started.</para>
+            <para>The default is every minute.</para>
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">Is thrown if the <see cref="T:System.TimeSpan"/> provided is less than 500 milliseconds.</exception>
+        </member>
+        <member name="P:TopShelfAPI.TSConfiguration.License">
+            <summary>
+            <para>Gets or sets your account's license type, this will affect the default request limits defined in <see cref="P:TopShelfAPI.TSConfiguration.RequestLimit"/>. The request limits can be changed regardless of the license specified.</para>
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConfiguration.RequestLimit">
+            <summary>
+            Gets the current request limits defined for your connection. See <see cref="T:TopShelfAPI.TSRequestLimit"/>.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.TSConnection">
+            <summary>
+            Used for connecting to TopShelf's REST API using the credentials provided to you on your My Account page.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.TSConnection.#ctor(TopShelfAPI.TSCredential)">
+            <summary>
+            Initializes a new instance of <see cref="T:TopShelfAPI.TSConnection"/> with the provided <see cref="T:TopShelfAPI.TSCredential"/>s.
+            </summary>
+            <param name="credentials">The REST API credentials for your TopShelf account.</param>
+        </member>
+        <member name="M:TopShelfAPI.TSConnection.#ctor(TopShelfAPI.TSCredential,TopShelfAPI.TSConfiguration)">
+            <summary>
+            Initializes a new instance of <see cref="T:TopShelfAPI.TSConnection"/> with the provided <see cref="T:TopShelfAPI.TSCredential"/>s and <see cref="T:TopShelfAPI.TSConfiguration"/>.
+            </summary>
+            <param name="credentials">The REST API credentials for your TopShelf account.</param>
+            <param name="configuration">The settings that will be used for the connection to TopShelf's REST API.</param>
+        </member>
+        <member name="P:TopShelfAPI.TSConnection.ClientsLocations">
+            <summary>
+            Gets the pipeline for <see cref="T:TopShelfAPI.Client"/> and <see cref="T:TopShelfAPI.Location"/> functions.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConnection.Documents">
+            <summary>
+            Gets the pipeline for <see cref="T:TopShelfAPI.Document"/> functions.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConnection.Bins">
+            <summary>
+            Gets the pipeline for <see cref="T:TopShelfAPI.Bin"/> functions.
+            </summary>
+            <example>
+            <para>Getting a list of bins.</para>
+            <code>
+            TopShelfAPI.TSConnection TS = new TopShelfAPI.TSConnection(
+                new TopShelfAPI.TSCredential(APIKey, APIPassword),
+                new TopShelfAPI.TSConfiguration()
+                {
+                    RequestTimeout = TimeSpan.FromMinutes(10),
+                });
+            TopShelfAPI.LocationBins[] Bins = TS.Bins.GetBins();
+            </code>
+            <para></para>
+            <para>Getting a single bin.</para>
+            <code>
+            TopShelfAPI.TSConnection TS = new TopShelfAPI.TSConnection(
+                new TopShelfAPI.TSCredential(APIKey, APIPassword),
+                new TopShelfAPI.TSConfiguration()
+                {
+                    RequestTimeout = TimeSpan.FromMinutes(10),
+                });
+            TopShelfAPI.Bin SingleBin = TS.Bins.GetBin("TestBin");
+            //Or
+            TopShelfAPI.Bin SingleBin2 = TS.Bins["TestBin"];
+            
+            //Using WarehouseLocationID
+            TopShelfAPI.Bin SingleBin3 = TS.Bins.GetBin(124);
+            //Or
+            TopShelfAPI.Bin SingleBin4 = TS.Bins[124];
+            </code>
+            </example> 
+        </member>
+        <member name="P:TopShelfAPI.TSConnection.Cartons">
+            <summary>
+            Gets the pipeline for <see cref="T:TopShelfAPI.Carton"/> functions.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConnection.Vendors">
+            <summary>
+            Gets the pipeline for <see cref="T:TopShelfAPI.Vendor"/> functions.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConnection.Parts">
+            <summary>
+            Gets the pipeline for <see cref="T:TopShelfAPI.Part"/> functions.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.TSConnection.Inventory">
+            <summary>
+            Gets the pipeline for <see cref="T:TopShelfAPI.PartInventory"/> functions.
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.TSConnection.Dispose">
+            <summary>
+            Disposes the current <see cref="T:TopShelfAPI.TSConnection"/>.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.TSCredential">
+            <summary>
+            A credential object used to authenticate TopShelf's REST API.
+            </summary>
+            <example>
+            <para>This example shows how to create a credentials object.</para>
+            <code>
+            TopShelfAPI.TSCredential Credentials = new TopShelfAPI.TSCredential("tHiSiSmYaPiKeY", "aNdMyApIsEcReT");
+            </code>
+            </example>
+        </member>
+        <member name="M:TopShelfAPI.TSCredential.#ctor(System.String,System.String)">
+            <summary>
+            Creates a new <see cref="T:TopShelfAPI.TSCredential"/> with the provided credentials from the My Account page.
+            </summary>
+            <param name="apiKey">The API Key from the My Account page.</param>
+            <param name="apiSecret">The API Secret from the My Account page.</param>
+            <exception cref="T:System.ArgumentNullException">Will be thrown if <paramref name="apiKey"/> or <paramref name="apiSecret"/> are null or white space.</exception>
+        </member>
+        <member name="T:TopShelfAPI.TSDefaults">
+            <summary>
+            Represents the default variables for TopShelf.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TSDefaults.DefaultDetailLevel">
+            <summary>
+            The default level of detail that will be returned when requesting inventory data.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TSDefaults.NullDateTime">
+            <summary>
+            The string provided from TopShelf's REST API if the DateTime object is not set.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TSDefaults.ThrottleDataFileName">
+            <summary>
+            The name of the file that will be saved for all of the API's throttle data.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TSDefaults.MaxPageSize">
+            <summary>
+            The maximum number of items that can be returned from a single API call.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TSDefaults.MediaType">
+            <summary>
+            The type of content that is sent to TopShelf with POST, PUT and DELETE requests.
+            </summary>
+        </member>
+        <member name="F:TopShelfAPI.TSDefaults.SuccessfulDeleteCode">
+            <summary>
+            The HTTP status code that is returned when something is deleted successfully.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.TSRequestLimit">
+            <summary>
+            The request limits that will be used to throttle requests to your account. 
+            </summary>
+        </member>
+        <member name="M:TopShelfAPI.TSRequestLimit.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Creates a new <see cref="T:TopShelfAPI.TSRequestLimit"/> with the specified limits.
+            </summary>
+            <param name="maxCallsPerMinute">The maximum number of requests that will be sent to TopShelf in 60 seconds.</param>
+            <param name="maxCallsPerDay">The maximum number of requests that will be sent to TopShelf in 24 hours.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">Will be thrown if <paramref name="maxCallsPerDay"/> or <paramref name="maxCallsPerMinute"/> is less than or equal to 0.</exception> 
+        </member>
+        <member name="P:TopShelfAPI.TSRequestLimit.MaxCallsPerMinute">
+            <summary>
+            <para>Gets or sets the maximum number of requests that will be sent to TopShelf in 60 seconds.</para>
+            <para>You can set this to any non 0 positive number, but it is recommended that you keep this between 1 and 10 requests per minute to avoid possible errors.</para>
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">Will be thrown if the value provided is less than or equal to 0.</exception>
+        </member>
+        <member name="P:TopShelfAPI.TSRequestLimit.MaxCallsPerDay">
+            <summary>
+            <para>Gets or sets the maximum number of requests that will be sent to TopShelf in 24 hours.</para>
+            <para>You can set this to any non 0 positive number, but this will vary depending on your account. Contact support@scoutsft.com to get information on your daily request limit.</para>
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">Will be thrown if the value provided is less than or equal to 0.</exception> 
+        </member>
+        <member name="P:TopShelfAPI.TSRequestLimit.MaxConcurrentCalls">
+            <summary>
+            <para>Gets or sets the maximum number of concurrent requests that can be sent to TopShelf.</para>
+            <para>It is recommended that this be left at 1, concurrent requests to TopShelf can cause deadlock errors. But if it is changed, it is recommended that you do not set it to be higher than the number of threads available - 1.</para>
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">Will be thrown if the value provided is less than or equal to 0.</exception>
+        </member>
+        <member name="P:TopShelfAPI.TSRequestLimit.MinDelayBetweenRequests">
+            <summary>
+            <para>Gets or sets the minimum amount of time to pause between requests, regardless of the current throttle, or the number of concurrent requests being made. The default value is 2 seconds.</para>
+            <para>It is recommended that you have atleast 2 seconds between requests, if you are making a lot of very large requests then you should allow for more time in-between each request. Setting this to 0 seconds might cause errors.</para>
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">Will be thrown if the <see cref="T:System.TimeSpan"/> provided is less than 0 seconds.</exception>
+        </member>
+        <member name="T:TopShelfAPI.UnitOfMeasure">
+            <summary>
+            Represents TopShelf's unit of measure for <see cref="T:TopShelfAPI.Part"/>s.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.UnitOfMeasure.UnitOfMeasureName">
+            <summary>
+            Gets or sets the name of the unit of measure.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.UnitOfMeasure.UnitMultiplier">
+            <summary>
+            Gets or sets the multiplier.
+            </summary>
+        </member>
+        <member name="T:TopShelfAPI.Vendor">
+            <summary>
+            Represents a vendor object in TopShelf.
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.VendorID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.VendorName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.ContactFirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.ContactLastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.City">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.StateOrProvince">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.PostalCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.Country">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.LogoURL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.ContactEmail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.PhoneNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.FanNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TopShelfAPI.Vendor.Notes">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
